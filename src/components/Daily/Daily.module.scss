@@ -1,0 +1,57 @@
+.daily {
+    border-radius: 20px;
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    background: rgb(255, 255, 255);
+    margin-top: 100px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 20px;
+    
+    &__item {
+        border-radius: 10px;
+        background: rgba(71, 147, 255, 0.2);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 11px;
+        
+        &_day {
+            color: rgb(0, 0, 0);
+            font-weight: 500;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+        
+        &_date {
+            color: rgb(147, 156, 176);
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+        
+        &_temp {
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        &_img {
+            width: 45px;
+            height: 45px;
+        }
+        
+        &_temp2 {
+            color: rgb(147, 156, 176);
+            font-size: 13px;
+            font-weight: 400;
+        }
+        
+        &_info {
+            color: rgb(147, 156, 176);
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+    }
+}
